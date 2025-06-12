@@ -59,6 +59,7 @@ main {
 
 .project-tile a {
     text-decoration: none;
+    font-size: 14px;
     color: #105d95;
 }
 
