@@ -13,20 +13,20 @@ body {
     font-weight: 500;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-row {
     font-size: 14px;
     margin-top: 0.25rem;
-    text-align: center;
+    text-align: left;
 }
 
 .tagline-block {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.6;
     margin-top: 0.75rem;
-    text-align: center;
+    text-align: left;
 }
 
 /* Main content wrapper */
