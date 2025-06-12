@@ -1,4 +1,21 @@
 
+.name-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.contact-row {
+    font-size: 14px;
+    margin-top: 0.25rem;
+}
+
+.tagline-block {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 0.75rem;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
