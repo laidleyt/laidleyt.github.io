@@ -48,14 +48,17 @@ main {
     margin-top: 0.75rem;
     padding: 0.4rem 0.75rem;
     background-color: black;
-    color: white;
+    color: #f8f9fa;  /* brighter than default white, for legibility */
     font-size: 0.85rem;
+    font-weight: 500;
     border-radius: 4px;
     text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .link-button:hover {
     background-color: #333;
+    color: #ffffff;
 }
 
 footer {
