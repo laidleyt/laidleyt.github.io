@@ -48,7 +48,7 @@ main {
     margin-top: 0.75rem;
     padding: 0.4rem 0.75rem;
     background-color: black;
-    color: #ffffff;  /* ← force bright white text */
+    color: #ffffff !important;  /* force white text */
     font-size: 0.85rem;
     font-weight: 500;
     border-radius: 4px;
@@ -56,13 +56,14 @@ main {
     border: none;
 }
 
-.link-button:hover {
-    background-color: #333;
-    color: #ffffff;
+/* Ensure visited and hover also stay white */
+.link-button:visited {
+    color: #ffffff !important;
 }
 
-.link-button:visited {
-    color: #ffffff;
+.link-button:hover {
+    background-color: #333;
+    color: #ffffff !important;
 }
 
 footer {
