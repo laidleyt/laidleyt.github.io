@@ -1,21 +1,4 @@
-
-.name-title {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-.contact-row {
-    font-size: 14px;
-    margin-top: 0.25rem;
-}
-
-.tagline-block {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-top: 0.75rem;
-}
-
+/* === Typography & Layout === */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -24,23 +7,36 @@ body {
     color: #333;
 }
 
-header {
+/* Centered bio and metadata block */
+.name-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
     text-align: center;
-    padding: 2rem 1rem;
-    border-bottom: 1px solid #ddd;
 }
 
-header h1 {
-    margin: 0;
-    font-weight: 600;
+.contact-row {
+    font-size: 14px;
+    margin-top: 0.25rem;
+    text-align: center;
 }
 
+.tagline-block {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+/* Main content wrapper */
 main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
 
+/* === Project Cards === */
 .project-tile {
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -60,6 +56,7 @@ main {
     color: #105d95;
 }
 
+/* === CTA Buttons === */
 .link-button {
     display: inline-block;
     margin-top: 0.75rem;
@@ -73,7 +70,6 @@ main {
     border: none;
 }
 
-/* Ensure visited and hover also stay white */
 .link-button:visited {
     color: #ffffff !important;
 }
@@ -83,9 +79,18 @@ main {
     color: #ffffff !important;
 }
 
+/* === Footer (optional) === */
 footer {
     text-align: center;
     padding: 2rem 0 1rem 0;
     font-size: 0.85rem;
     color: #666;
+}
+
+/* === Optional Horizontal Rule Styling === */
+hr {
+    max-width: 800px;
+    margin: 2rem auto;
+    border: none;
+    border-top: 1px solid #ccc;
 }
