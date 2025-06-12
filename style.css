@@ -15,7 +15,7 @@ body {
 
 /* Centered bio and metadata block */
 .name-title {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -23,7 +23,7 @@ body {
 }
 
 .contact-row {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0.25rem;
     text-align: left;
 }
