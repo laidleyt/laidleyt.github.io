@@ -55,11 +55,12 @@ main {
 .project-tile h2 {
     margin-top: 0;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .project-tile a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color: #105d95;
 }
 
