@@ -1,10 +1,10 @@
 /* === Typography & Layout === */
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #333;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
 }
 
 .header-container {
@@ -13,109 +13,68 @@ body {
   padding: 0 1rem;
 }
 
-/* Centered bio and metadata block */
+/* Header & Metadata */
 .name-title {
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    text-align: left;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .contact-row {
-    font-size: 16px;
-    margin-top: 0.25rem;
-    text-align: left;
+  font-size: 16px;
+  margin-top: 0.25rem;
+  text-align: left;
 }
 
 .tagline-block {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-top: 0.75rem;
-    text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 0.75rem;
+  text-align: left;
 }
 
 /* Main content wrapper */
 main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* === Section Headers === */
+.section-subtitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+  margin: 3rem auto 1rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
 }
 
 /* === Project Cards === */
 .project-tile {
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    padding: 1.25rem;
-    margin-bottom: 2rem;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
 }
 
 .project-tile h2 {
-    margin-top: 0;
-    font-weight: 500;
-    font-size: 16px;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .project-tile a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #105d95;
+  text-decoration: none;
+  font-size: 16px;
+  color: #105d95;
 }
 
-/* === CTA Buttons === */
-.link-button {
-    display: inline-block;
-    margin-top: 0.75rem;
-    padding: 0.4rem 0.75rem;
-    background-color: black;
-    color: #ffffff !important;  /* force white text */
-    font-size: 0.85rem;
-    font-weight: 500;
-    border-radius: 4px;
-    text-decoration: none;
-    border: none;
-}
-
-.link-button:visited {
-    color: #ffffff !important;
-}
-
-.link-button:hover {
-    background-color: #333;
-    color: #ffffff !important;
-}
-
-/* === Footer (optional) === */
-footer {
-    text-align: center;
-    padding: 2rem 0 1rem 0;
-    font-size: 0.85rem;
-    color: #666;
-}
-
-/* === Optional Horizontal Rule Styling === */
-hr {
-    max-width: 800px;
-    margin: 2rem auto;
-    border: none;
-    border-top: 1px solid #ccc;
-}
-
-.project-image {
-  width: 420px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-top: 1rem;
-}
-
-.code-below {
-  display: inline-block;
-  margin-top: 0.5rem;
-  margin-left: 0;
-}
-
+/* === Visual + CTA Pairing === */
 .project-visual-block {
   display: block;
   margin-top: 1rem;
@@ -123,14 +82,48 @@ hr {
 
 .project-image {
   width: 350px;
+  max-width: 100%;
   border: 1px solid #ccc;
   border-radius: 6px;
   display: block;
   margin-bottom: 0.5rem;
 }
 
+/* === CTA Buttons === */
 .link-button {
   display: inline-block;
-  margin-top: 0;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  background-color: black;
+  color: #ffffff !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
 }
 
+.link-button:visited {
+  color: #ffffff !important;
+}
+
+.link-button:hover {
+  background-color: #333;
+  color: #ffffff !important;
+}
+
+/* === Footer (optional) === */
+footer {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* === Optional Horizontal Rule Styling === */
+hr {
+  max-width: 800px;
+  margin: 2rem auto;
+  border: none;
+  border-top: 1px solid #ccc;
+}
