@@ -102,3 +102,16 @@ hr {
     border: none;
     border-top: 1px solid #ccc;
 }
+
+.project-image {
+  width: 420px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.code-below {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
