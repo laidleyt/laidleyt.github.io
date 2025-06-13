@@ -44,8 +44,8 @@ main {
 
 /* === Section Headers === */
 .section-subtitle {
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #444;
   margin: 0.5rem auto 1rem auto;
   max-width: 800px;
@@ -92,6 +92,7 @@ main {
 /* === CTA Buttons === */
 .link-button {
   display: inline-block;
+  transition: background-color 0.2s ease, transform 0.2s ease;
   margin-top: 0.5rem;
   padding: 0.4rem 0.75rem;
   background-color: black;
