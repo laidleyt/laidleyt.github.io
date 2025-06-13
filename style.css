@@ -116,3 +116,21 @@ hr {
   margin-left: 0;
 }
 
+.project-visual-block {
+  display: block;
+  margin-top: 1rem;
+}
+
+.project-image {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.link-button {
+  display: inline-block;
+  margin-top: 0;
+}
+
